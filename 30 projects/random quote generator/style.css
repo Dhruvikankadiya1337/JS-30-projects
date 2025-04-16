@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    background-color: #ffffffd9; 
+    width: 35%;
+    max-width: 400px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+}
+
+.quote-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.quote-box blockquote {
+    font-size: 22px;
+    color: #333;
+    font-style: italic;
+    margin: 20px 0;
+    line-height: 1.5;
+    min-height: 100px;
+}
+
+.quote-box span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    font-weight: 500;
+    text-align: right;
+}
+
+.quote-box div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.quote-box button {
+    background-color: #ff9a9e;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.quote-box button:hover {
+    background-color: #ff9a9e;
+    animation: pop 0.5s;
+}
+
+@media (max-width: 768px) {
+    .quote-box {
+        width: 80%;
+    }
+}
