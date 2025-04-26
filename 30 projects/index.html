@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    
+    <h1>💍 Jewelry Collection</h1>
+
+  <div id="product-list">
+
+    <div class="product">
+      <img src="img/earing.jpg" alt="Gold Earrings">
+      <h3>Earrings</h3>
+      <p>Price: ₹1999</p>
+      <button onclick="addToCart('Gold Earrings', 1999, 'img/earing.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="img/nackles.jpg" alt="Diamond Necklace">
+      <h3>Diamond Necklace</h3>
+      <p>Price: ₹5999</p>
+      <button onclick="addToCart('Diamond Necklace', 5999, 'img/nackles.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="img/bracelet.jpg" alt="Silver Bracelet">
+      <h3>Silver Bracelet</h3>
+      <p>Price: ₹2499</p>
+      <button onclick="addToCart('Silver Bracelet', 2499, 'img/bracelet.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="img/ring1.jpg" alt="Ruby Ring">
+      <h3>Ruby Ring</h3>
+      <p>Price: ₹3500</p>
+      <button onclick="addToCart('Ruby Ring', 3500, 'img/ring1.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="img/nackles2.jpg" alt="Pearl Necklace">
+      <h3>Pearl Necklace</h3>
+      <p>Price: ₹4500</p>
+      <button onclick="addToCart('Pearl Necklace', 4500, 'img/nackles2.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="img/watch.jpg" alt="Golden Watch">
+      <h3>Golden Watch</h3>
+      <p>Price: ₹7999</p>
+      <button onclick="addToCart('Golden Watch', 7999, 'img/watch.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="img/studs.jpg" alt="Diamond Studs">
+      <h3>Diamond Studs</h3>
+      <p>Price: ₹9999</p>
+      <button onclick="addToCart('Diamond Studs', 9999, 'img/studs.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="img/chain.jpg" alt="Dimond chain ">
+      <h3>Dimond chain</h3>
+      <p>Price: ₹7000</p>
+      <button onclick="addToCart('Diamond chain', 12000, 'img/chain.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="img/double chain.jpg" alt="Dimond chain ">
+        <h3>Dimond double chain</h3>
+        <p>Price: ₹8000</p>
+        <button onclick="addToCart('Diamond double chain', 12000, 'img/double chain.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/bracelet.webp" alt="Dimond bracelet ">
+        <h3>Dimond bracelet </h3>
+        <p>Price: ₹6000</p>
+        <button onclick="addToCart('Diamond double chain', 12000, 'img/bracelet.webp')">Add to Cart</button>
+      </div>
+
+  </div>
+
+  <div id="cart">
+    <h2>🛒 Your Cart</h2>
+    <div id="cart-items"></div>
+    <h3 id="total">Total: ₹0</h3>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
