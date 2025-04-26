@@ -1,5 +1,6 @@
 Weather App 🌦️
-This is a simple and clean Weather App built with HTML, CSS, and JavaScript.
+
+This is a simpleand clean Weather App built with HTML, CSS, and JavaScript.
 It fetches real-time weather data from an API and displays the current weather condition with an appropriate weather icon.
 
 Features ✨
